@@ -128,7 +128,7 @@
 		            "shortDesc"     : "Learn about configuring ACE behavior using Policies",
 		            "detailsURL"    : "https://ot4i.github.io/policy-tutorial/en/details.html",
 		            "stepsURL"      : "https://ot4i.github.io/policy-tutorial/en/steps.html",
-					"zipURL" 	: "https://github.com/ot4i/policy-tutorial/releases/download/v1.0/PI_PolicyTutorial.zip",
+					"zipURL" 	: "https://github.com/ot4i/policy-tutorial/releases/download/v2.0/PI_PolicyTutorial.zip",
 					"barFile" 	: "",
 					"visible"	: "true",
 					"tags"		: "rest",
