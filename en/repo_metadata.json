@@ -14,12 +14,12 @@
 			"tutorials":
 			[
 			  {
-		            "name"          : "Getting started with ACEv11 - Creating an Integration Server",
+		            "name"          : "Hasan Getting started with ACEv11 - Creating an Integration Server",
 		            "version"	: "1.0",
 		            "iibVersions"	: "10.*-11.*",
 		            "shortDesc"     : "Learn some basics about integration servers and how to use them",
-		            "detailsURL"    : "https://ot4i.github.io/integration-server-tutorial/en/details.html",
-		            "stepsURL"      : "https://ot4i.github.io/integration-server-tutorial/en/steps.html",
+		            "detailsURL"    : "https://hrizvi.github.io/integration-server-tutorial/en/details.html",
+		            "stepsURL"      : "https://hrizvi.github.io/integration-server-tutorial/en/steps.html",
 					"zipURL" 	: "https://github.com/ot4i/integration-server-tutorial/releases/download/v2.0/PI_IntegrationServerTutorial.zip",
 					"barFile" 	: "",
 					"visible"	: "true",
