@@ -2912,7 +2912,35 @@
               "path": "Validate_Using_Schema_YAML"
             }
           ]
-        }
+        },
+        {
+          "name": "App Connect for Manufacturing - Using the OPC-UA-Read node to read data from an OPC Server",
+          "version": "1.0",
+          "iibVersions": "12.*-12.*",
+          "shortDesc": "Learn how to create a simple message flow for reading data from an OPC server using the OPC-UA-Read Node.",
+          "detailsURL": "https://ot4i.github.io/amfg-tutorials/opc-ua-read/v12/en/details.html",
+          "stepsURL": "https://ot4i.github.io/ace-tutorials/v12/en/#/./tutorials/opc-ua-read",
+          "zipURL": "https://github.com/ot4i/json-validation-schemayaml-tutorial/releases/download/v3.0/PI_Validate_Using_Schema_YAML.zip",
+          "barFile": "",
+          "visible": "true",
+          "tags": "Manufacturing",
+          "isPattern": "false",
+          "isFavorite": "true",
+          "projects": "Validate_Using_Schema_YAML",
+          "editorResPaths": [
+            {
+              "id": "MainFlow",
+              "editor": "flow",
+              "wspath": "<workspace>/Validate_Using_Schema_YAML/Validate_Using_Schema_YAML.msgflow"
+            }
+          ],
+          "deployedResources": [
+            {
+              "type": "application",
+              "path": "Validate_Using_Schema_YAML"
+            }
+          ]
+        }		
       ]
     },
     {
