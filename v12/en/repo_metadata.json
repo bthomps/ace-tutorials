@@ -3116,24 +3116,28 @@
           "shortDesc": "Learn how to create a simple message flow for reading data from an OPC server using the OPC-UA-Read Node.",
           "detailsURL": "https://ot4i.github.io/acmfg-opc-ua-read-tutorial/v12/en/details.html",
           "stepsURL": "https://ot4i.github.io/ace-tutorials/v12/en/#/./tutorials/acmfg-opc-ua-read-tutorial",
-          "zipURL": "https://github.com/ot4i/acmfg-opc-ua-read-tutorial/releases/download/v3.0/PI_OPCUAREAD.zip",
+          "zipURL": "https://github.com/ot4i/acmfg-opc-ua-read-tutorial/releases/download/v1.0/PI_OPCUAREAD.zip",
           "barFile": "",
           "visible": "true",
-          "tags": "Manufacturing;OPCUA",
+          "tags": "Manufacturing;OPC-UA",
           "isPattern": "false",
           "isFavorite": "true",
-          "projects": "ToBeUpdated",
+          "projects": "ControlFlowApp:ReadFlowApp",
           "editorResPaths": [
             {
               "id": "MainFlow",
               "editor": "flow",
-              "wspath": "<workspace>/ToBeUpdated/ToBeUpdatedFlow.msgflow"
+              "wspath": "<workspace>/ControlFlowApp/TestControlFlow.msgflow"
             }
           ],
           "deployedResources": [
             {
               "type": "application",
-              "path": "ToBeUpdated"
+              "path": "ControlFlowApp"
+            },
+			{
+              "type": "application",
+              "path": "ReadFlowApp"
             }
           ]
         }
