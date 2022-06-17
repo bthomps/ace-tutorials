@@ -2913,13 +2913,13 @@
             }
           ]
         },		
-        {
+		{
           "name": "Discovery Connector - Using the IBM Cloudant Request node",
           "version": "1.0",
           "iibVersions": "12.*-12.*",
           "shortDesc": "Learn how to use the IBM Cloudant Request node (requires v12.0.5.0 or higher)",
           "detailsURL": "https://ot4i.github.io/discovery-cloudant-tutorial/v12/en/details.html",
-          "stepsURL": "https://bthomps.github.io/ace-tutorials/v12/en/#/./tutorials/discovery-cloudant-tutorial",
+          "stepsURL": "https://ot4i.github.io/ace-tutorials/v12/en/#/./tutorials/discovery-cloudant-tutorial",
           "zipURL": "https://github.com/ot4i/discovery-cloudant-tutorial/releases/download/v3.0/PI_Cloudant.zip",
           "barFile": "",
           "visible": "true",
@@ -2941,7 +2941,7 @@
             }
           ]
         },
-        {
+		{
           "name": "Discovery Connector - Using the Microsoft Azure Blob storage Request node",
           "version": "1.0",
           "iibVersions": "12.*-12.*",
@@ -2969,7 +2969,7 @@
             }
           ]
         },
-        {
+		{
           "name": "Discovery Connector - Using the Coupa Request node",
           "version": "1.0",
           "iibVersions": "12.*-12.*",
@@ -2997,7 +2997,7 @@
             }
           ]
         },
-        {
+		{
           "name": "Discovery Connector - Using the Amazon S3 Request node",
           "version": "1.0",
           "iibVersions": "12.*-12.*",
@@ -3025,7 +3025,7 @@
             }
           ]
         },
-        {
+		{
           "name": "Discovery Connector - Using the Magento Request node",
           "version": "1.0",
           "iibVersions": "12.*-12.*",
@@ -3053,7 +3053,7 @@
             }
           ]
         },
-        {
+		{
           "name": "Discovery Connector - Using the Salesforce Request node",
           "version": "1.0",
           "iibVersions": "12.*-12.*",
@@ -3081,7 +3081,7 @@
             }
           ]
         },
-        {
+		{
           "name": "Discovery Connector - Using the IBM Maximo Request node",
           "version": "1.0",
           "iibVersions": "12.*-12.*",
@@ -3108,39 +3108,7 @@
               "path": "ExampleMaximo"
             }
           ]
-        },
-        {
-          "name": "App Connect for Manufacturing - Using the OPC-UA-Read node to read data from an OPC Server",
-          "version": "1.0",
-          "iibVersions": "12.*-12.*",
-          "shortDesc": "Learn how to create a simple message flow for reading data from an OPC server using the OPC-UA-Read Node.",
-          "detailsURL": "https://ot4i.github.io/acmfg-opc-ua-read-tutorial/v12/en/details.html",
-          "stepsURL": "https://ot4i.github.io/ace-tutorials/v12/en/#/./tutorials/acmfg-opc-ua-read-tutorial",
-          "zipURL": "https://github.com/ot4i/acmfg-opc-ua-read-tutorial/releases/download/v1.0/PI_OPCUAREAD.zip",
-          "barFile": "",
-          "visible": "true",
-          "tags": "Manufacturing;OPC-UA",
-          "isPattern": "false",
-          "isFavorite": "true",
-          "projects": "ControlFlowApp:ReadFlowApp",
-          "editorResPaths": [
-            {
-              "id": "MainFlow",
-              "editor": "flow",
-              "wspath": "<workspace>/ControlFlowApp/TestControlFlow.msgflow"
-            }
-          ],
-          "deployedResources": [
-            {
-              "type": "application",
-              "path": "ControlFlowApp"
-            },
-			{
-              "type": "application",
-              "path": "ReadFlowApp"
-            }
-          ]
-        }
+        }				
       ]
     },
     {
