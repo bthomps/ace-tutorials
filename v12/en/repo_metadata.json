@@ -2912,8 +2912,8 @@
               "path": "Validate_Using_Schema_YAML"
             }
           ]
-        },		
-		{
+        },
+        {
           "name": "Discovery Connector - Using the IBM Cloudant Request node",
           "version": "1.0",
           "iibVersions": "12.*-12.*",
@@ -2923,7 +2923,7 @@
           "zipURL": "https://github.com/ot4i/discovery-cloudant-tutorial/releases/download/v3.0/PI_Cloudant.zip",
           "barFile": "",
           "visible": "true",
-          "tags": "Discovery;Cloudant;",
+          "tags": "Discovery;Cloudant",
           "isPattern": "false",
           "isFavorite": "true",
           "projects": "ExampleCloudant:CompleteExampleCloudant:CompletePolicyProjectCloudant",
@@ -2941,7 +2941,7 @@
             }
           ]
         },
-		{
+        {
           "name": "Discovery Connector - Using the Microsoft Azure Blob storage Request node",
           "version": "1.0",
           "iibVersions": "12.*-12.*",
@@ -2951,7 +2951,7 @@
           "zipURL": "https://github.com/ot4i/discovery-azureblobstorage-tutorial/releases/download/v3.0/PI_AzureBlobStorage.zip",
           "barFile": "",
           "visible": "true",
-          "tags": "Discovery;AzureBlobStorage;",
+          "tags": "Discovery;AzureBlobStorage",
           "isPattern": "false",
           "isFavorite": "true",
           "projects": "ExampleAzureBlobStorage:CompleteExampleAzureBlobStorage:CompletePolicyProjectAzureBlobStorage",
@@ -2969,7 +2969,7 @@
             }
           ]
         },
-		{
+        {
           "name": "Discovery Connector - Using the Coupa Request node",
           "version": "1.0",
           "iibVersions": "12.*-12.*",
@@ -2979,7 +2979,7 @@
           "zipURL": "https://github.com/ot4i/discovery-coupa-tutorial/releases/download/v3.0/PI_Coupa.zip",
           "barFile": "",
           "visible": "true",
-          "tags": "Discovery;Coupa;",
+          "tags": "Discovery;Coupa",
           "isPattern": "false",
           "isFavorite": "true",
           "projects": "ExampleCoupa:CompleteExampleCoupa:CompletePolicyProjectCoupa",
@@ -2997,7 +2997,7 @@
             }
           ]
         },
-		{
+        {
           "name": "Discovery Connector - Using the Amazon S3 Request node",
           "version": "1.0",
           "iibVersions": "12.*-12.*",
@@ -3007,7 +3007,7 @@
           "zipURL": "https://github.com/ot4i/discovery-amazons3-tutorial/releases/download/v3.0/PI_AmazonS3.zip",
           "barFile": "",
           "visible": "true",
-          "tags": "Discovery;AmazonS3;",
+          "tags": "Discovery;AmazonS3",
           "isPattern": "false",
           "isFavorite": "true",
           "projects": "ExampleAmazonS3:CompleteExampleAmazonS3:CompletePolicyProjectAmazonS3",
@@ -3025,7 +3025,7 @@
             }
           ]
         },
-		{
+        {
           "name": "Discovery Connector - Using the Magento Request node",
           "version": "1.0",
           "iibVersions": "12.*-12.*",
@@ -3035,7 +3035,7 @@
           "zipURL": "https://github.com/ot4i/discovery-magento-tutorial/releases/download/v3.0/PI_Magento.zip",
           "barFile": "",
           "visible": "true",
-          "tags": "Discovery;Magento;",
+          "tags": "Discovery;Magento",
           "isPattern": "false",
           "isFavorite": "true",
           "projects": "ExampleMagento:CompleteExampleMagento:CompletePolicyProjectMagento",
@@ -3053,7 +3053,7 @@
             }
           ]
         },
-		{
+        {
           "name": "Discovery Connector - Using the Salesforce Request node",
           "version": "1.0",
           "iibVersions": "12.*-12.*",
@@ -3063,7 +3063,7 @@
           "zipURL": "https://github.com/ot4i/discovery-salesforce-tutorial/releases/download/v3.0/PI_Salesforce.zip",
           "barFile": "",
           "visible": "true",
-          "tags": "Discovery;Salesforce;",
+          "tags": "Discovery;Salesforce",
           "isPattern": "false",
           "isFavorite": "true",
           "projects": "ExampleSalesforce:CompleteExampleSalesforce:CompletePolicyProjectSalesforce",
@@ -3081,7 +3081,7 @@
             }
           ]
         },
-		{
+        {
           "name": "Discovery Connector - Using the IBM Maximo Request node",
           "version": "1.0",
           "iibVersions": "12.*-12.*",
@@ -3091,7 +3091,7 @@
           "zipURL": "https://github.com/ot4i/discovery-maximo-tutorial/releases/download/v3.0/PI_Maximo.zip",
           "barFile": "",
           "visible": "true",
-          "tags": "Discovery;Maximo;",
+          "tags": "Discovery;Maximo",
           "isPattern": "false",
           "isFavorite": "true",
           "projects": "ExampleMaximo:CompleteExampleMaximo:CompletePolicyProjectMaximo",
@@ -3108,9 +3108,37 @@
               "path": "ExampleMaximo"
             }
           ]
-        }				
+        },
+		{
+		  "name": "App Connect for Manufacturing - Using the OPC-UA-Read node to read data from an OPC Server",
+          "version": "1.0",
+          "iibVersions": "12.*-12.*",
+          "shortDesc": "Learn how to create a simple message flow for reading data from an OPC server using the OPC-UA-Read Node.",
+          "detailsURL": "https://ot4i.github.io/acmfg-opc-ua-read-tutorial/v12/en/details.html",
+          "stepsURL": "https://ot4i.github.io/ace-tutorials/v12/en/#/./tutorials/acmfg-opc-ua-read-tutorial",
+          "zipURL": "https://github.com/ot4i/acmfg-opc-ua-read-tutorial/releases/download/v3.0/PI_OPCUAREAD.zip",
+          "barFile": "",
+          "visible": "true",
+          "tags": "Manufacturing;OPCUA",
+          "isPattern": "false",
+          "isFavorite": "true",
+          "projects": "ToBeUpdated",
+          "editorResPaths": [
+            {
+              "id": "MainFlow",
+              "editor": "flow",
+              "wspath": "<workspace>/TestReadFlowApp/TestReadFlow.msgflow"
+            }
+          ],
+          "deployedResources": [
+            {
+              "type": "application",
+              "path": "TestReadFlowApp"
+            }
+          ]
+        }		
       ]
-    },
+    },	
     {
       "name": "Scenarios",
       "description": "Explore powerful App Connect Enterprise capabilities through integrated scenarios",
