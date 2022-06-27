@@ -3122,7 +3122,7 @@
           "tags": "Manufacturing;OPCUA",
           "isPattern": "false",
           "isFavorite": "true",
-          "projects": "ToBeUpdated",
+          "projects": "TestReadFlowApp:ControlFlowApp",
           "editorResPaths": [
             {
               "id": "MainFlow",
