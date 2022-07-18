@@ -3178,18 +3178,18 @@
           "tags": "Manufacturing;OPCUA",
           "isPattern": "false",
           "isFavorite": "true",
-          "projects": "ACMfg_WriteNode_Testflow:ACE_Control_Flow",
+          "projects": "ACMfg_WriteNode_TestFlow:ACE_Control_Flow",
           "editorResPaths": [
             {
               "id": "MainFlow",
               "editor": "flow",
-              "wspath": "<workspace>/ACMfg_WriteNode_Testflow/ACMfg_WriteNodeFlow.msgflow"
+              "wspath": "<workspace>/ACMfg_WriteNode_TestFlow/ACMfg_WriteNode.msgflow"
             }
           ],
           "deployedResources": [
             {
               "type": "application",
-              "path": "ACMfg_WriteNode_Testflow"
+              "path": "ACMfg_WriteNode_TestFlow"
             }
           ]
         },
